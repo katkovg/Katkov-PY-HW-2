@@ -13,9 +13,9 @@ digitsSum = 0
 lastDigit = 0
 if int(number) == number:
     digitsSum = countDigitsSum(number)
-    print('Сумма цифр составляет: ' + digitsSum)
+    print('Сумма цифр составляет: ' + str(int(digitsSum)))
 else:
     while int(number) != number:
         number *= 10
     digitsSum = countDigitsSum(number)
-    print('Сумма цифр составляет: ' + digitsSum)
+    print('Сумма цифр составляет: ' + str(int(digitsSum)))
